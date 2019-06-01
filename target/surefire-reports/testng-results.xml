@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GroupeTestSuite" duration-ms="62" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+    <groups>
+      <group name="sanity">
+        <method signature="Exceptions.sanityTest()[pri:0, instance:practiceMaven.Exceptions@6debcae2]" name="sanityTest" class="practiceMaven.Exceptions"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="GroupTest" duration-ms="62" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+      <class name="practiceMaven.PriorityTest">
+        <test-method status="PASS" signature="openBrowser()[pri:-1, instance:practiceMaven.PriorityTest@5ba23b66]" name="openBrowser" duration-ms="15" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="advanceSearch()[pri:0, instance:practiceMaven.PriorityTest@5ba23b66]" name="advanceSearch" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearch -->
+        <test-method status="PASS" signature="setup()[pri:1, instance:practiceMaven.PriorityTest@5ba23b66]" name="setup" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search()[pri:2, instance:practiceMaven.PriorityTest@5ba23b66]" name="search" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="asearch1()[pri:2, instance:practiceMaven.PriorityTest@5ba23b66]" name="asearch1" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asearch1 -->
+      </class> <!-- practiceMaven.PriorityTest -->
+      <class name="practiceMaven.Exceptions">
+        <test-method status="PASS" signature="arithmeticNoError()[pri:0, instance:practiceMaven.Exceptions@6debcae2]" name="arithmeticNoError" duration-ms="16" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arithmeticNoError -->
+        <test-method status="PASS" signature="skipMethod()[pri:0, instance:practiceMaven.Exceptions@6debcae2]" name="skipMethod" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[SkipException to Skip the method]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: SkipException to Skip the method
+at practiceMaven.Exceptions.skipMethod(Exceptions.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipMethod -->
+        <test-method status="PASS" signature="sanityTest()[pri:0, instance:practiceMaven.Exceptions@6debcae2]" name="sanityTest" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="arithmeticError()[pri:0, instance:practiceMaven.Exceptions@6debcae2]" name="arithmeticError" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at practiceMaven.Exceptions.arithmeticError(Exceptions.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arithmeticError -->
+      </class> <!-- practiceMaven.Exceptions -->
+      <class name="practiceMaven.EnableDisableTest">
+        <test-method status="PASS" signature="EnabledMethod()[pri:0, instance:practiceMaven.EnableDisableTest@7e0babb1]" name="EnabledMethod" duration-ms="0" started-at="2019-06-01T14:21:29Z" finished-at="2019-06-01T14:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnabledMethod -->
+      </class> <!-- practiceMaven.EnableDisableTest -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- GroupeTestSuite -->
+</testng-results>
